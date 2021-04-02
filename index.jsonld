@@ -1,0 +1,50 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:github:sambacha",
+  "publicKey": [
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:sambacha#clP7hkB8zd790zuqLkLeGOWTiNfX1EMxm-5Ta7QT42U",
+      "controller": "did:github:sambacha",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nxk8EYGZqxRMFK4EEAAoCAwT8ZZd7MOH5Ol3L5QhPuF9SzMH7QpC971yzlHQw\r\nXKx9meP6S3kVH8Le+VUV8YTLcldSkYCWUQE9QzerKsgtKRbHzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsKPBBATCAAgBQJgZmrFBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEAIQkQl0Vg/ZydcXMWIQQk8euEFxLAefLUnFOXRWD9nJ1x\r\nc/fBAP9L9pbk3Q1Fx1/xtQhZGqyfqfS34ED9eTU0dbDlJa8cqwEAoL+ns1DR\r\n/BYm5iyK2LiXi3XQL7XH4xbXCpSkljcqW3POUwRgZmrFEgUrgQQACgIDBFk0\r\ntw+BN6bnXSIdeTgyGvPU9WJ33degr6fR+GGVxO3OgH+aa7kC4lTDFROXFggE\r\nT/aTwmhAaW1JA1tCR1qUp+oDAQgHwngEGBMIAAkFAmBmasUCGwwAIQkQl0Vg\r\n/ZydcXMWIQQk8euEFxLAefLUnFOXRWD9nJ1xcwPjAQCUIFvFmURdRuAY9nhH\r\n3vXR+pDVv66XMB8OR8WzIQ7XKQEAnT7ZX50o/kQwq+tLfznZlmsrGTsGQxhc\r\nbbKJZYJCIbU=\r\n=Isa2\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:sambacha#F1zpl2PAubnWsX5P-QTCQhJWo60s6PlOx9106fWND-0",
+      "controller": "did:github:sambacha",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nxk8EYGZqxRMFK4EEAAoCAwTcgowexZg7Dh1bHB0CuJSCBjj+kz2czGfkLjTn\r\nnUHffh0cBZ0tbCYMgRJrvwyDNE25BpMpsOPspGauli+/p3lWzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsKPBBATCAAgBQJgZmrFBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEAIQkQxkjBdYPETrIWIQR6SxRU6zVSBt97WfvGSMF1g8RO\r\nss5FAPwO25Maa7E3w8Kqsk64B9yctcNW2NKkya43vJkVqHaKYAD8DnZczNVw\r\nx+Sxv5q3o30e+KlXP8buOoSw86UU65I/mgjOUwRgZmrFEgUrgQQACgIDBEXi\r\nWJwtF1I0CSxtKo6Z2GHhzbhaHQFS1GsBxD5qL21weo9HBqCwOD3dSv/qLhGM\r\nw8me6WkxOyMmlpTpr/AxI6IDAQgHwngEGBMIAAkFAmBmasUCGwwAIQkQxkjB\r\ndYPETrIWIQR6SxRU6zVSBt97WfvGSMF1g8ROspQSAPwM6QMwhXY8DeV14YYg\r\nE9G88ml0+6Qrl5jSNmTrLmqILAD/SyhUI6gb6hiFtI38jTrh+LEAEcWTRH8t\r\nPIRqi6DqfdU=\r\n=T9Lz\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "Ed25519VerificationKey2018",
+      "id": "did:github:sambacha#pArMNfOFdh2M3H9h2hXd2oQqQ0V0SyGNPSWtGA1haqg",
+      "controller": "did:github:sambacha",
+      "publicKeyBase58": "5kSXNST2bU1VZRn77CwYSArKA1auCBVBYYdscWHnz9Wn"
+    }
+  ],
+  "authentication": [],
+  "service": [],
+  "capabilityDelegation": [
+    "did:github:sambacha#pArMNfOFdh2M3H9h2hXd2oQqQ0V0SyGNPSWtGA1haqg"
+  ],
+  "capabilityInvocation": [
+    "did:github:sambacha#pArMNfOFdh2M3H9h2hXd2oQqQ0V0SyGNPSWtGA1haqg"
+  ],
+  "assertionMethod": [
+    "did:github:sambacha#pArMNfOFdh2M3H9h2hXd2oQqQ0V0SyGNPSWtGA1haqg"
+  ],
+  "keyAgreement": [
+    {
+      "id": "did:github:sambacha#z6LSnDuTEh7quPeQn7tPizXfBfURyTFsewK3aWXQSXoptxkn",
+      "type": "X25519KeyAgreementKey2019",
+      "controller": "did:github:sambacha",
+      "publicKeyBase58": "BYjHiPJyovvfgjWdCM1hs5Fx8JikxL8thXoix5AJBaz2"
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2021-04-02T00:52:21Z",
+    "verificationMethod": "did:github:sambacha#pArMNfOFdh2M3H9h2hXd2oQqQ0V0SyGNPSWtGA1haqg",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..CuMmv5EHgq1NCMBtJ-d0MMlWsWmTr9pYKt2hv0mVmEalP1FmD9SARtoq1yd8PMb5ZJaIyu0aGn27VA5XibFDCw"
+  }
+}
